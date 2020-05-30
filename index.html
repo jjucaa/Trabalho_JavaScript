@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shoot</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <div class="divs">
+            <div class="tutorial">
+                <p>
+                    Use as setas para direita(->) e esquerda(<-) para movimentar a plataforma 
+                </p>
+                <p>
+                    Acerte todos os blocos para ganhar o jogo
+                </p>
+                <p>
+                    Você possui 3 vidas
+                </p>
+                <p>
+                    OBS: Se o jogo travar clique no botão "Restart".
+                </p>
+
+            </div>
+            <div class="game">
+                <canvas width="440" height="553"></canvas>
+                <button class="button" id="restart_game" >Restart</button>
+                <button class="button" id="start_game" >Start</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/sprites.js"></script>
+	    <script type="text/javascript" src="js/collide.js"></script>
+	    <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
